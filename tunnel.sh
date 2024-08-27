@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IP_SERVER="100.127.207.108"
+IP_SERVER="100.94.203.46"
 
 # clear connect
 
