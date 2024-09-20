@@ -17,6 +17,3 @@ sudo systemctl restart sshd
 ##### ADD KEY SSH
 cd ~
 sudo cat *.pub >> .ssh/authorized_keys
-
-
-
