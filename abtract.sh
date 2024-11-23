@@ -17,16 +17,7 @@ do
     # thuc thi
     ssh -i "$IDENTIFY_FILE" ubuntu@$IP_HOST 'sudo cat *.pub >> ~/.ssh/authorized_keys'
     ssh -i "$IDENTIFY_FILE" ubuntu@$IP_HOST 'sudo sh set_host.sh'
+    ssh -i "$IDENTIFY_FILE" ubuntu@$IP_HOST 'sudo rm -rf set_host.sh'
+    ssh -i "$IDENTIFY_FILE" ubuntu@$IP_HOST 'sudo rm -rf id_rsa.pub'
 done
-# while IFS=, read -r IDENTIFY_FILE IP_HOST; do
-#     # Truyen file
-#     scp -i "$IDENTIFY_FILE" ~/Projects/vm_setting/set_host.sh ubuntu@$IP_HOST:
-#     scp -i "$IDENTIFY_FILE" ~/.ssh/master-node.pub ubuntu@$IP_HOST:
-#     # thuc thi
-#     ssh -i "$IDENTIFY_FILE" ubuntu@$IP_HOST 'sudo cat *.pub >> ~/.ssh/authorized_keys'
-#     ssh -i "$IDENTIFY_FILE" ubuntu@$IP_HOST 'sudo sh set_host.sh'
-# done < ~/.ssh/hosts.txt
-# 1,~/.ssh/worker-node03.pem,10.0.1.103
-# ~/.ssh/master-node.pem,10.0.0.100
-# ~/.ssh/worker-node01.pem,10.0.24.101
-# ~/.ssh/worker-node02.pem,10.0.24.102
+

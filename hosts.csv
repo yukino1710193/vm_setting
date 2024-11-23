@@ -1,5 +1,4 @@
 STT,IDENTIFY_FILE,IP_HOST
-0,~/.ssh/worker-node03.pem,10.0.1.103
-1,~/.ssh/master-node.pem,10.0.0.100
-2,~/.ssh/worker-node01.pem,10.0.24.101
-3,~/.ssh/worker-node02.pem,10.0.24.102
+0,~/.ssh/Tokyo_key.pem,10.0.0.151
+0,~/.ssh/Tokyo_key.pem,10.0.8.152
+0,~/.ssh/Singapore_key.pem,10.0.24.153
