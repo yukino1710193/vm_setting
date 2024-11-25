@@ -1,4 +1,4 @@
 STT,IDENTIFY_FILE,IP_HOST
-0,~/.ssh/Tokyo_key.pem,10.0.0.151
-0,~/.ssh/Tokyo_key.pem,10.0.8.152
-0,~/.ssh/Singapore_key.pem,10.0.24.153
+0,~/.ssh/Tokyo_key.pem,192.168.122.101
+0,~/.ssh/Tokyo_key.pem,192.168.122.102
+0,~/.ssh/Tokyo_key.pem,192.168.122.103

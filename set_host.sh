@@ -2,7 +2,7 @@
 
 ##### file /etc/sudoers
 
-sudo grep -q "^ubuntu ALL=(ALL) NOPASSWD:ALL" /etc/sudoers || echo "ubuntu ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+sudo grep -q "^yukino ALL=(ALL) NOPASSWD:ALL" /etc/sudoers || echo "yukino ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 
 # thực hiện khối lệnh 1 sẽ kiểm tra trong file /etc/sudoers có dòng ubuntu ... kia chưa -> kết quả trả về 0 hoặc 1 tương ứng với chưa có và có
 # nếu chưa có thì thực hiện khối lệnh sau : bao gồm tải input sau phần echo , thêm input đó vào cuối file /etc/sudoers
