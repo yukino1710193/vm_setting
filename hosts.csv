@@ -1,5 +1,4 @@
 STT,IDENTIFY_FILE,IP_HOST
-0,~/.ssh/worker-node03.pem,10.0.1.103
-1,~/.ssh/master-node.pem,10.0.0.100
-2,~/.ssh/worker-node01.pem,10.0.24.101
-3,~/.ssh/worker-node02.pem,10.0.24.102
+0,~/.ssh/id_rsa,192.168.122.101,node1
+1,~/.ssh/id_rsa,192.168.122.102,node2
+2,~/.ssh/id_rsa,192.168.122.103,node3
